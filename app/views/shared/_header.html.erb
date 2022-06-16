@@ -14,13 +14,10 @@
         <% end %>
       </div>
 
-      <% if header.image.present? %>
-        <div class="small-12 medium-6 column">
-          <%= image_tag(header.image_url(:large),
-                        class: "margin",
-                        alt: header.image.title) %>
-        </div>
-      <% end %>
+      <div class="small-12 medium-6 column map-home">
+        <%= image_tag(image_path_for("map_home.png"),
+                      alt: "mapa Ribeira Sacra") %>
+      </div>
     </div>
   </div>
   <div class="background-header"></div>
