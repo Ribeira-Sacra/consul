@@ -52,12 +52,22 @@
     <% end %>
     <% if feature?(:help_page) %>
       <li>
-        <%= layout_menu_link_to t("layouts.header.help"),
+        <%= layout_menu_link_to 'Como funciona',
                                 help_path,
                                 current_page?(help_path),
                                 accesskey: "7" %>
       </li>
     <% end %>
+     <li>
+        <%= link_to 'Consorcio de Turismo',
+                                'https://turismo.ribeirasacra.org/gl/consorcio-de-turismo-ribeira-sacra',
+                                accesskey: "8", target: '_blank' %>
+      </li>
+      <li>
+        <%= link_to 'Plan de Sostenibilidade',
+                                'https://turismo.ribeirasacra.org/gl/plan-de-sostibilidade-turistica-ribeira-sacra',
+                                accesskey: "9", target: '_blank' %>
+      </li>
 
     <%= raw content_block("subnavigation_right") %>
   </ul>
