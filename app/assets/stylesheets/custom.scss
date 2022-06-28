@@ -24,6 +24,10 @@
   width: 100%;
   max-width: fit-content;
   flex: 1;
+  a {
+    all: unset;
+    cursor: pointer;
+  }
 }
 .top-bar-right {
   margin: 16px 0;
