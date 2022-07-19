@@ -66,3 +66,21 @@
 .background-header {
   z-index: 1;
 }
+.footer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    max-height: 40px;
+    height: 100%;
+    margin: 8px;
+    &:first-child {
+      max-height: 45px;
+    }
+    &:nth-child(3) {
+      max-height: 30px;
+    }
+  }
+}

@@ -215,7 +215,10 @@ gl:
       administration: Administración
       collaborative_legislation: Procesos lexislativos
       debates: Temas
-      sustainability: Plan de Sostenibilidade
+      consorcio: Consorcio de Turismo
+      consorcio_link: https://turismo.ribeirasacra.org/gl/consorcio-de-turismo-ribeira-sacra
+      sustainability: Plan de Sostibilidade
+      sustainability_link: https://turismo.ribeirasacra.org/gl/plan-de-sostibilidade-turistica-ribeira-sacra
       locale: "Idioma:"
       management: Xestión
       moderation: Moderar
@@ -224,7 +227,7 @@ gl:
       help: Axuda
       my_account_link: A miña conta
       my_activity_link: A miña actividade
-      open_gov: Goberno aberto
+      open_gov: Plan de Sostibilidade Turística en Ribeira Sacra
       proposals: Propostas cidadás
       poll_questions: Votacións
       budgets: Orzamentos participativos
