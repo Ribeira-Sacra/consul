@@ -175,7 +175,7 @@ gl:
     local_census_record: Rexistro do Censo Local
     local_census_records/import: Importar rexistros do censo local
   geozones:
-    none: Toda a cidade
+    none: Toda Ribeira Sacra
   layouts:
     application:
       chrome: Google Chrome
@@ -204,17 +204,19 @@ gl:
       consul_url: https://github.com/consul/consul
       contact_us: Se precisas asistencia técnica
       copyright: CONSUL, %{year}
-      description: Este portal usa a %{consul} que é %{open_source}. De Madrid, para o mundo enteiro.
+      description: Este portal usa a %{consul} que é %{open_source}.
       open_source: software libre
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide como debe ser a cidade de Madrid que queres.
+      participation_text: Decide como debe ser a Ribeira que queres.
       participation_title: Participación
       privacy: Política de privacidade
     header:
+      title: Ribeira Sacra, un destino de todas as persoas
       administration_menu: Admin
       administration: Administración
       collaborative_legislation: Procesos lexislativos
       debates: Temas
+      how_it_works: Como funciona
       consorcio: Consorcio de Turismo
       consorcio_link: https://turismo.ribeirasacra.org/gl/consorcio-de-turismo-ribeira-sacra
       sustainability: Plan de Sostibilidade
@@ -553,7 +555,7 @@ gl:
       title: "Votacións"
       participate_button: "Participar nesta votación"
       participate_button_expired: "Votación rematada"
-      no_geozone_restricted: "Toda a cidade"
+      no_geozone_restricted: "Toda Ribeira Sacra"
       geozone_restricted: "Zonas"
       geozone_info: "Poden participar as persoas empadroadas en: "
       already_answer: "Xa participaches nesta votación"
@@ -633,7 +635,7 @@ gl:
       from: "Dende"
       general: "Co texto"
       search: "Filtro"
-      title: "Busca avanzada"
+      title: "Procura avanzada"
       to: "Ata"
     author_info:
       author_deleted: Usuario/a borrado/a
@@ -798,6 +800,10 @@ gl:
         debates: Ver todos os temas
         proposals: Ver todas as propostas
         processes: Ver todos os procesos
+      no_items:
+        debates: Agora mesmo non hai temas
+        proposals: Agora mesmo non hai propostas
+        processes: Agora mesmo non hai procesos abertos
       process_label: Proceso
       see_process: Ver proceso
     cards:
@@ -827,7 +833,7 @@ gl:
       user_permission_proposal: Crear novas propostas
       user_permission_support_proposal: Apoiar propostas*
       user_permission_verify: "Para poder realizar todas as accións, verifica a túa conta."
-      user_permission_verify_info: "* Só persoas usuarias empadroadas no municipio de Madrid."
+      user_permission_verify_info: "* Só persoas usuarias empadroadas."
       user_permission_verify_my_account: Verificar a miña conta
       user_permission_votes: Participar nas votacións finais
   invisible_captcha:

@@ -32,9 +32,9 @@ es:
       environment: Medio Ambiente
     budgets:
       budget: Presupuesto Participativo
-      currency: '€'
+      currency: "€"
       groups:
-        all_city: Toda la Ciudad
+        all_city: Toda Ribeira Sacra
         districts: Distritos
       valuator_groups:
         culture_and_sports: Cultura y Deportes

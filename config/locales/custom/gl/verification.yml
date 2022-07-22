@@ -52,10 +52,10 @@ gl:
           residence_card: Tarxeta de residencia
           spanish_id: DNI
         error_not_allowed_age: Hai que ter polo menos 16 anos
-        error_not_allowed_postal_code: Para verificarte debes estar empadroado no municipio de Madrid.
+        error_not_allowed_postal_code: Para verificarte debes estar empadroado.
         error_verifying_census: O Censo non puido verificar a súa información. Confirme que os datos do seu censo son correctos chamando ao Concello ou visite unha oficina de atención ao cidadán.
         form_errors: evitaron verificar a túa residencia
-        postal_code_note: Para verificar os teus datos debes estar empadroado no municipio de Madrid
+        postal_code_note: Para verificar os teus datos debes estar empadroado
         terms: os termos de acceso
         title: Verificar residencia
         verify_residence: Verificar domicilio

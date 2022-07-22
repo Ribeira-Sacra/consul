@@ -52,7 +52,7 @@
     <% end %>
     <% if feature?(:help_page) %>
       <li>
-        <%= layout_menu_link_to 'Como funciona',
+        <%= layout_menu_link_to t("layouts.header.how_it_works"),
                                 help_path,
                                 current_page?(help_path),
                                 accesskey: "7" %>
