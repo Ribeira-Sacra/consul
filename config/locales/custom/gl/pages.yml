@@ -8,20 +8,20 @@ gl:
       title: "%{org} é unha plataforma de participación cidadá"
       guide: "Esta guía explica para que serven e como funcionan cada unha das seccións de %{org}."
       menu:
-        debates: "Debates"
+        debates: "Temas"
         proposals: "Propostas cidadás"
         budgets: "Orzamentos participativos"
         polls: "Votacións"
         other: "Outra información de interese"
         processes: "Procesos"
       debates:
-        title: "Debates"
+        title: "Temas"
         description: "Na sección de %{link} podes expoñer e compartir a túa opinión con outras persoas sobre temas que che preocupan relacionados co destino. Tamén é un espazo onde xerar ideas que a través das outras seccións de %{org} leven a actuacións concretas por parte do Consorcio."
-        link: "debates cidadáns"
-        feature: "Podes abrir debates, comentalos e valoralos cos botóns de <strong>estou de acordo</strong> ou <strong>non estou de acordo</strong>. Para iso tes que %{link}."
+        link: "temas cidadáns"
+        feature: "Podes abrir temas, comentalos e valoralos cos botóns de <strong>estou de acordo</strong> ou <strong>non estou de acordo</strong>. Para iso tes que %{link}."
         feature_link: "rexistrarte en %{org}"
-        image_alt: "Botóns para avaliar os debates"
-        figcaption: 'Botóns "estou de acordo" e "non estou de acordo" para avaliar os debates.'
+        image_alt: "Botóns para avaliar os temas"
+        figcaption: 'Botóns "estou de acordo" e "non estou de acordo" para avaliar os temas.'
       proposals:
         title: "Propostas cidadás"
         description: "Na sección %{link} podes formular propostas para que o Consorcio as leve a cabo. As propostas obteñen apoios e se alcanzan abondos sométense a votación cidadá. As propostas aprobadas nestas votacións cidadás son asumidas polo Consorcio e lévanse a cabo."
@@ -42,7 +42,7 @@ gl:
         feature_1_link: "rexistrarte en %{org_name}"
       processes:
         title: "Procesos"
-        description: "Na sección %{link}, a cidadanía participa na redacción e modificación da normativa que afecta á cidade, e pode dar a súa opinión sobre as políticas municipais en debates previos."
+        description: "Na sección %{link}, a cidadanía participa na redacción e modificación da normativa que afecta á cidade, e pode dar a súa opinión sobre as políticas municipais en temas previos."
         link: "procesos"
         feature_link: "rexistrarte en %{org_name}"
       faq:
@@ -89,7 +89,7 @@ gl:
             - key_column: 0
               page_column: Inicio
             - key_column: 1
-              page_column: Debates
+              page_column: Temas
             - key_column: 2
               page_column: Propostas cidadás
             - key_column: 3
